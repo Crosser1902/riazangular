@@ -1,11 +1,11 @@
 {
-  "navigationFallback": {
-      "rewrite": "/index.html"
-  },
   "routes": [
     {
       "route": "/logout",
-      "redirect": "/.auth/#logout"
+      "redirect": "/#logout"
     }
-  ]
+  ],
+  "navigationFallback": {
+      "rewrite": "/index.html"
+  },
 }
